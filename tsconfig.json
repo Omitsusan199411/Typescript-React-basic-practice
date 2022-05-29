@@ -3,7 +3,10 @@
         "./src/**/*"
     ],
     "compilerOptions": {
-        // "strict": true,
+        // 型宣言を厳しくチェックする
+        "strict": true,
+        // any型は宣言しなくてもエラーを表示しない
+        "noImplicitAny": false,
         "esModuleInterop": true,
         "lib": [
             "dom",
